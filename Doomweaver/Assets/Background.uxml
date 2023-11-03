@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/styles.uss?fileID=7433441132597879392&amp;guid=2d6d76a693232914c9dccaba6887b289&amp;type=3#styles" />
+    <ui:VisualElement name="Background" class="background-panel background">
+        <ui:VisualElement name="LeftMovie" class="movie-panel">
+            <ui:VisualElement name="MovieImage" class="movie-image" />
+            <ui:VisualElement>
+                <ui:Label text="Feature 1" display-tooltip-when-elided="true" name="Header" class="movie-header default-text" />
+                <ui:Label text="&lt;Movie Title&gt;" display-tooltip-when-elided="true" name="MovieTitle" class="movie-title default-text" />
+                <ui:Label text="@ ~19:45" display-tooltip-when-elided="true" name="MovieTime" class="movie-time default-text" />
+            </ui:VisualElement>
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="NavigationButton" class="nav-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="RightMovie" class="movie-panel">
+            <ui:VisualElement>
+                <ui:Label text="Feature 2" display-tooltip-when-elided="true" name="Header" class="movie-header default-text" />
+                <ui:Label text="&lt;Movie Title&gt;" display-tooltip-when-elided="true" name="MovieTitle" class="movie-title default-text" />
+                <ui:Label text="@ ~21:30" display-tooltip-when-elided="true" name="MovieTime" class="movie-time default-text" />
+            </ui:VisualElement>
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="NavigationButton" class="nav-button" />
+            <ui:VisualElement name="MovieImage" class="movie-image" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

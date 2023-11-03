@@ -1,0 +1,94 @@
+.background {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-panel {
+    width: 50%;
+    height: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.movie-title {
+    font-size: 90px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.movie-header {
+    font-size: 150px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.movie-image {
+    background-image: url('project://database/Assets/MovieImages/ParanormalActivity.png?fileID=2800000&guid=1aa0da5155b3372499a277d8d497a789&type=3#ParanormalActivity');
+    width: 1200px;
+    height: 1200px;
+    border-left-color: rgba(0, 0, 0, 0.18);
+    border-right-color: rgba(0, 0, 0, 0.18);
+    border-top-color: rgba(0, 0, 0, 0.18);
+    border-bottom-color: rgba(0, 0, 0, 0.18);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    border-top-width: 50px;
+    border-bottom-width: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.movie-time {
+    font-size: 60px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.default-text {
+    color: rgb(138, 250, 248);
+}
+
+.nav-button {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(230, 1, 50, 255);
+    font-size: 60px;
+    -unity-font-style: bold;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    transition-duration: 0.15s;
+    color: rgb(138, 250, 248);
+    border-left-color: rgba(142, 7, 39, 255);
+    border-right-color: rgba(142, 7, 39, 255);
+    border-top-color: rgba(142, 7, 39, 255);
+    border-bottom-color: rgba(142, 7, 39, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+}
+
+.nav-button:hover {
+    background-color: rgba(142, 7, 39, 255);
+    scale: 1.1 1.1;
+}
+
+.nav-button:active {
+    scale: 0.9 0.9;
+}
